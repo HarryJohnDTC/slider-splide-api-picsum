@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         setTimeout(() => {
           loader.style.display = 'none'; 
-        }, 1000); 
+        }, 3000); 
       })
       .catch(error => {
         console.error('Erreur lors du chargement des images:', error);
